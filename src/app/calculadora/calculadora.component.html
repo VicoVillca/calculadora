@@ -1,0 +1,16 @@
+<div class="m-5">
+  <h1>Calculadora</h1>
+  <p>
+    <label>Numero A</label>
+    <input type="number" class="form-control" [(ngModel)]="a" />
+  </p>
+  <p>
+    <label>Numero B</label>
+    <input type="number" class="form-control" [(ngModel)]="b" />
+  </p>
+  <button class="btn btn-primary" (click)="sumar()">sumar</button>
+<p>
+  <label>Suma:{{ suma }}</label>
+</p>
+
+</div>
